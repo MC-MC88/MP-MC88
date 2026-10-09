@@ -1,127 +1,197 @@
+<h2 id="français">🇫🇷 Version française</h2>
+
 <div align="center">
 
-# 🎵 MP88 — Studio Vinyle & Audio
+# 🎯 MP88 — Vinyl Studio — MC88
 
-**Un lecteur audio, avec l'âme d'un tourne-disque.**
+**Lecteur audio local avec égaliseur et effets.**
 
 </div>
 
+🌍 **Langues :** [Français](#français) · [English](#english)
+
 ---
+
+> **En bref** — Un lecteur audio web avec égaliseur, son spatial, paroles et conversion vidéo-audio.
+> 
+> **Lecture locale · Effets 8D/4D · Recherche et transcription de paroles**
+
+<!-- 
+## 📸 Aperçu
+
+<div align="center">
+  <img src="https://github.com/mohamed005cheikh-rgb/[REPO]/raw/main/images/Sc1.png" alt="[Description]" width="100%" />
+</div>
+
+---
+
+🔗 **Démo en ligne :** [https://...](https://...)
+📦 **Code source :** [https://github.com/mohamed005cheikh-rgb/[REPO]](https://github.com/mohamed005cheikh-rgb/[REPO])
+-->
 
 ## 👋 Bienvenue
 
-MP88 est un lecteur audio qui prend son temps.
-
-Vous y déposez vos morceaux, et un vinyle se met à tourner. Vous ajustez le son, vous jouez avec la spatialisation, vous cherchez les paroles, vous transcrivez à la volée. Et si un jour une vidéo contient une chanson que vous voulez garder, l'outil peut en extraire l'audio — sans jamais quitter votre navigateur.
-
-Tout ce qui touche au son se passe **sur votre machine** : lecture, égaliseur, effets spatiaux, transcription, conversion. Seule la recherche de paroles en ligne envoie le nom du morceau à un service externe — et c'est clairement indiqué.
-
-C'est un outil pour ceux qui aiment écouter, vraiment écouter. Prendre une chanson, la régler, la laisser tourner.
+MP88 est un lecteur audio qui tourne entièrement dans votre navigateur. Vous chargez vos fichiers locaux, vous les écoutez avec des réglages d'égaliseur et des effets spatiaux. Une section paroles permet de chercher en ligne ou de transcrire sur l'appareil. Un convertisseur vidéo-audio est aussi inclus.
 
 ---
-<!-- 
-## 📸 Un aperçu
 
-<div align="center">
-  <img src="https://github.com/mohamed005cheikh-rgb/mp-mc88/raw/main/images/Sc1.png" alt="Lecteur vinyle et playlist" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github.com/mohamed005cheikh-rgb/mp-mc88/raw/main/images/Sc2.png" alt="Égaliseur et effets spatiaux" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github.com/mohamed005cheikh-rgb/mp-mc88/raw/main/images/Sr1.gif" alt="Chercher les paroles et les corriger" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github.com/mohamed005cheikh-rgb/mp-mc88/raw/main/images/Sr2.gif" alt="Convertir une vidéo en audio" width="100%" />
-</div>
-
----
--->
 ## ✨ Ce que vous trouverez
 
-**Un vinyle qui tourne vraiment.**  
-Vous déposez un morceau, et la platine s'anime — le disque tourne, le bras se déplace. La playlist se remplit toute seule, avec les noms et les durées détectés automatiquement. Vous pouvez passer au morceau suivant, revenir en arrière, activer la lecture aléatoire, ou répéter une piste en boucle.
+**Lecture de fichiers audio locaux.**  
+MP3, WAV, M4A, FLAC, OGG. Aucun envoi sur un serveur.
 
-**Huit préréglages pour écouter à votre façon.**  
-Neutre, graves amplifiés, voix mises en avant, aigus, rock, pop, classique, lo-fi. Chacun ajuste les quatre bandes essentielles — les basses, la présence vocale, la clarté, les aigus — pour que la musique sonne comme vous l'aimez.
+**Égaliseur avec presets.**  
+Flat, Bass Boost, Vocal Boost, Treble, Rock, Pop, Classical, Lo-Fi.
 
-**Des effets spatiaux pour changer d'espace.**  
-Le mode **8D** fait tourner le son autour de votre tête en neuf secondes. Le mode **4D** le fait plus vite, en quatre secondes et demie. Le mode **Wide Stereo** élargit discrètement l'image sonore. Le tout accompagné d'un point lumineux qui orbite autour du vinyle, en rythme avec l'effet.
+**Son spatial.**  
+8D Audio, 4D Audio, Wide Stereo. Effets calculés en temps réel.
 
-**Les paroles, de deux manières.**  
-Vous pouvez chercher en ligne — l'outil interroge une base publique, et trouve souvent ce qu'il faut si le fichier est bien nommé (du genre `Artiste - Titre.mp3`). Ou vous pouvez demander une **transcription locale** : un petit modèle IA analyse le morceau et écrit ce qu'il entend, sans rien envoyer sur un serveur. Si une phrase est mal comprise, vous la sélectionnez, cliquez sur « Fix selection », et vous la corrigez à la main.
+**Paroles.**  
+Recherche en ligne via lyrics.ovh ou transcription sur l'appareil avec Whisper.
 
-**Convertir une vidéo en audio.**  
-Vous avez un MP4, un MOV, un MKV ou un WEBM qui contient une chanson ? Déposez-le, choisissez le format de sortie (MP3, WAV, M4A, OGG), et l'outil en extrait la bande son. Tout se fait **localement**, grâce à une version de ffmpeg compilée pour le navigateur. Rien n'est téléversé.
-
-**Quatre ambiances pour l'interface.**  
-Sombre avec accents dorés, clair et épuré, bleu océan, orange coucher de soleil — selon l'heure et l'humeur, vous changez d'atmosphère d'un clic.
+**Convertisseur vidéo → audio.**  
+MP4, MOV, MKV, WEBM vers MP3, WAV, M4A, OGG.
 
 ---
 
 ## 🧭 Comment ça marche
 
-**1. Déposez vos morceaux.**  
-Cliquez sur la zone d'import, ou glissez-déposez plusieurs fichiers d'un coup. La playlist se remplit, et la lecture démarre.
+**1. Chargez vos fichiers audio.**  
+Cliquez ou glissez-déposez dans la zone d'upload.
 
-**2. Réglez le son.**  
-Choisissez un préréglage d'égaliseur, puis un effet spatial si vous voulez. Le vinyle tourne, le bras se pose, et vous écoutez.
+**2. Lancez la lecture.**  
+Utilisez les contrôles play, pause, suivant, précédent.
 
-**3. Cherchez ou transcrivez les paroles.**  
-Dans l'onglet *Lyrics*, choisissez entre la recherche en ligne — rapide, mais pas toujours disponible — ou la transcription locale, plus longue la première fois, mais qui reste chez vous.
+**3. Ajustez l'égaliseur et les effets.**  
+Choisissez un preset ou activez un effet spatial.
 
-**4. Convertissez, si besoin.**  
-Dans l'onglet *Convert*, déposez une vidéo, choisissez le format, et laissez l'outil travailler. Le fichier audio se télécharge automatiquement à la fin.
+**4. Passez à l'onglet Paroles ou Convert.**  
+Cherchez les paroles, transcrivez, ou convertissez une vidéo.
 
-À chaque étape, rien n'est définitif — vous pouvez revenir en arrière, changer d'avis, reprendre un morceau là où vous l'aviez laissé.
+C'est tout. Tout reste sur votre appareil.
 
 ---
 
 ## 🛠️ Petits coups de main
 
-**L'audio ne démarre pas ?**  
-Vérifiez le format — MP3, WAV, M4A, FLAC et OGG sont acceptés. Si le fichier est corrompu, essayez-en un autre. Et bien sûr, jetez un œil au volume.
+**Est-ce que mes fichiers sont envoyés quelque part ?**  
+Non. Tout est traité localement dans le navigateur.
 
-**L'égaliseur reste sans effet ?**  
-Il s'active **après la première lecture**. Lancez un morceau, puis ajustez — les filtres prendront vie immédiatement.
+**Pourquoi les paroles ne sont pas trouvées ?**  
+Essayez « Transcrire l'audio » à la place. Le modèle Whisper tourne sur l'appareil.
 
-**Les effets 8D / 4D sont discrets ?**  
-Utilisez un **casque stéréo**. Sur haut-parleurs, l'effet reste perceptible mais bien plus subtil. C'est le propre de la spatialisation.
+**Est-ce que ça marche hors ligne ?**  
+Oui, après le premier chargement. La transcription télécharge un modèle la première fois.
 
-**La recherche de paroles échoue ?**  
-La base publique ne contient pas toutes les chansons. Renommez votre fichier en `Artiste - Titre.mp3` et réessayez — ou passez à la transcription locale.
+**Comment corriger des paroles erronées ?**  
+Sélectionnez le passage, cliquez sur « Fix selection », et tapez la correction.
 
-**La transcription met du temps au début ?**  
-Le premier lancement télécharge le petit modèle Whisper (~40 Mo). Une seule fois. Ensuite, tout se fait hors ligne, en local.
+---
 
-**La conversion vidéo ne démarre pas ?**  
-Essayez une vidéo plus courte (moins de 100 Mo) et fermez les autres onglets gourmands. La conversion demande pas mal de mémoire — surtout sur un téléphone.
+<br /><br /><br />
 
-**La transcription échoue sur mobile ?**  
-C'est un cas connu. La transcription Whisper est gourmande en mémoire. Utilisez un ordinateur pour cette fonction, ou essayez un extrait plus court.
+<h2 id="english">🇬🇧 English version</h2>
+
+<div align="center">
+
+# 🎯 MP88 — Vinyl Studio — MC88
+
+**Local music player with EQ and effects.**
+
+</div>
+
+🌍 **Languages:** [Français](#français) · [English](#english)
+
+---
+
+> **In short** — A web music player with equalizer, spatial audio, lyrics, and video-to-audio conversion.
+> 
+> **Play local audio · 8D/4D effects · Lyrics search and transcription**
+
+<!-- 
+## 📸 Preview
+
+<div align="center">
+  <img src="https://github.com/mohamed005cheikh-rgb/[REPO]/raw/main/images/Sc1.png" alt="[Description]" width="100%" />
+</div>
+
+---
+
+🔗 **Live demo:** [https://...](https://...)
+📦 **Source code:** [https://github.com/mohamed005cheikh-rgb/[REPO]](https://github.com/mohamed005cheikh-rgb/[REPO])
+-->
+
+## 👋 Welcome
+
+MP88 is a music player that runs entirely in your browser. You load local files, play them with equalizer settings and spatial effects. A lyrics section lets you search online or transcribe on-device. A video-to-audio converter is also included.
+
+---
+
+## ✨ What you'll find
+
+**Play local audio files.**  
+MP3, WAV, M4A, FLAC, OGG. No upload to any server.
+
+**Equalizer with presets.**  
+Flat, Bass Boost, Vocal Boost, Treble, Rock, Pop, Classical, Lo-Fi.
+
+**Spatial sound.**  
+8D Audio, 4D Audio, Wide Stereo. Effects computed in real time.
+
+**Lyrics.**  
+Online search via lyrics.ovh or on-device transcription with Whisper.
+
+**Video → audio converter.**  
+MP4, MOV, MKV, WEBM to MP3, WAV, M4A, OGG.
+
+---
+
+## 🧭 How it works
+
+**1. Load your audio files.**  
+Click or drag-and-drop into the upload area.
+
+**2. Start playback.**  
+Use play, pause, next, previous controls.
+
+**3. Adjust EQ and effects.**  
+Pick a preset or enable a spatial effect.
+
+**4. Switch to Lyrics or Convert tab.**  
+Search lyrics, transcribe, or convert a video.
+
+That's it. Everything stays on your device.
+
+---
+
+## 🛠️ A little help
+
+**Are my files uploaded anywhere?**  
+No. Everything is processed locally in the browser.
+
+**Why are lyrics not found?**  
+Try "Transcribe audio" instead. The Whisper model runs on-device.
+
+**Does it work offline?**  
+Yes, after the first load. Transcription downloads a model the first time.
+
+**How do I fix wrong lyrics?**  
+Select the passage, click "Fix selection", and type the correction.
 
 ---
 
 <div align="center">
 
-### 📞 Une question, une idée ?
+### 📞 Une question, une idée ? / A question, an idea?
 
 [![Email](https://img.shields.io/badge/Email-mohamed005cheikh@gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamed005cheikh@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-+222_30_72_64_75-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/22230726475)
+[![GitHub](https://img.shields.io/badge/GitHub-MC--MC88-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MC-MC88)
 
 <br />
 
-*Bonne écoute.*
+*Écoutez. Ajustez. Ressentez. / Listen. Adjust. Feel.*
 
-<sub>© 2026 Mohamed Cheikh — MC88</sub>
+<sub>MIT License · © 2026 Mohamed Cheikh — MC88</sub>
 
 </div>
